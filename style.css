@@ -1,0 +1,64 @@
+body{
+    
+    
+}
+
+.navbar-brand{
+    background-color: white;
+}
+
+
+#mainCenteredBox{
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 150px;
+    color:white;
+}
+
+.fullBackground{
+    background:url(https://projects.breatheco.de/p/css/junior/bootstrap/landing-page/img/banner-bg.jpg) no-repeat center center;
+    background-size:cover;
+}
+#mainCenteredBox hr{
+    border-color: inherit;
+    width:80%;
+}
+
+#socialButtons div{
+    margin-top:10px;
+}
+
+.textBox *{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textBr hr{
+    width:70%;
+    float:left;
+}
+
+.mainSections{
+    padding:50px 0;
+}
+
+.mainSections:nth-child(odd) {
+    background: lightgray;
+}
+
+.prefooterBox{
+    padding: 50px 0;
+    color:white;
+}
+
+.h2{color:white;}
+
+.footer-menu-divider{
+    line-height:40px;
+}
+
+.mainNav{
+    background:white;
+    border-bottom:1px #e9ecef solid;
+}
